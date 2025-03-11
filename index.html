@@ -1,72 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTICIAS VIANA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-  <header>
-    <div class="logo">Nombre de la empresa</div>
-    <nav>
-      <ul>
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Admin</a></li>
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
+    <header>
+        <h1> NOTICIAS VIANA </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Noticias</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="mision.html">Mision</a></li>
+                <li><a class="dropdown-item" href="mision.html">Vision</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="about.html">Equipo de Trabajo</a></li>
+                </ul>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
     </nav>
-  </header>
-  <main>
-    <div class="news-section">
-      <div class="news-item">
-        <img src="https://via.placeholder.com/300x200" alt="Noticia 1">
-        <h3>Título de la Noticia 1</h3>
-        <p>Descripción de la noticia 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Leer más</a>
-      </div>
-      <div class="news-item">
-        <img src="https://via.placeholder.com/300x200" alt="Noticia 2">
-        <h3>Título de la Noticia 2</h3>
-        <p>Descripción de la noticia 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Leer más</a>
-      </div>
-      <div class="news-item">
-        <img src="https://via.placeholder.com/300x200" alt="Noticia 3">
-        <h3>Título de la Noticia 3</h3>
-        <p>Descripción de la noticia 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Leer más</a>
-      </div>
-    </div>
-    <div class="other-pages">
-      <table>
-        <thead>
-          <tr>
-            <th>Noticias Nacionales</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td><a href="#">Bogotá</a></td></tr>
-          <tr><td><a href="#">El Tiempo</a></td></tr>
-          <tr><td><a href="#">The New York Times</a></td></tr>
-          <tr><td><a href="#">El Espectador</a></td></tr>
-        </tbody>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th>Noticias Internacionales</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td><a href="#">Los Angeles Times</a></td></tr>
-          <tr><td><a href="#">El Diario-del Huila</a></td></tr>
-          <tr><td><a href="#">El Clarin</a></td></tr>
-        </tbody>
-      </table>
-    </div>
-  </main>
-  </body>
-  </html>
-
+    <div class="container">
+        <div class="row">
+            <div class="col ">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Noticia</li>
+                    </ul>
+                    <div class="card-body">
+                    <h5 class="card-title">Descripcion</h5>
+                    <p class="card-text"> Liverpool vs. PSG: hora y dónde ver el partido de Luis Díaz en la Champions League</p>
+                    </div>
+                    <img src="https://www.elespectador.com/resizer/v2/BX3GVSRRNR6YBPSOZSD3JJLTDA.jpg?auth=2945dc0c4d52ec2c97e8e310938e53bb5953fd05e20416451557a9f835a44e75&width=920&height=613&smart=true&quality=60" class="img-fluid rounded" alt="programacion">
+                    <a href="https://www.elespectador.com/deportes/futbol-mundial/liverpool-vs-psg-hora-y-donde-ver-el-partido-de-luis-diaz-en-la-champions-league-anfield-en-vivo-octavos-noticias-hoy/" class="btn btn-primary" target="_blank">LEER COMPLETA</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Noticia</li>
+                    </ul>
+                    <div class="card-body">
+                    <h5 class="card-title">Descripcion</h5>
+                    <p class="card-text">Hinchas de Millonarios convocan a plantón por el mal rendimiento del equipo</p>
+                    </div>
+                    <img src="https://www.elespectador.com/resizer/v2/ESUDX2YX5BDTFC2RS73GPGDUH4.jpeg?auth=fa5cf87ae2a7b8ed9334dfcab958a73fd4ab77cb2849246f085320bb2fa39e4d&width=920&height=613&smart=true&quality=60" class="img-fluid rounded" alt="...">
+                    <a href="https://www.elespectador.com/deportes/futbol-colombiano/millonarios/hinchas-de-millonarios-convocan-a-planton-por-el-mal-rendimiento-del-equipo-jorge-lizcano-liga-betplay-noticias-hoy/" class="btn btn-primary" target="_blank">LEER COMPLETA</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Noticia</li>
+                    </ul>
+                    <div class="card-body">
+                    <h5 class="card-title">Descripcion</h5>
+                    <p class="card-text">Sheila Chepkirui ganó el Maratón Femenino de Nagoya 2025, en Japón</p>
+                    </div>
+                    <img src="https://www.elespectador.com/resizer/v2/JVUTM4SBY2NVVM7A5B2RJ74N5E.jpg?auth=efcdc8708bd8dfc3ae17ff828c26e4ff13fe751a32b82f383ef77b7cb2addc47&width=920&height=613&smart=true&quality=60" class="img-fluid rounded" alt="...">
+                    <a href="https://www.elespectador.com/deportes/mas-deportes/sheila-chepkirui-gano-el-maraton-femenino-de-nagoya-2025-en-japon/" class="btn btn-primary" target="_blank">LEER COMPLETA</a>
+                </div>
+            </div>
+        </div>
+        <footer class="container py-5 my-5 border-top">
+            <h5 class="text-center">Otras páginas de noticias..</h5>
+            <div class="border p-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><strong>NACIONALES</strong></h6>
+                        <ul class="list-unstyled">
+                            <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" >
+                                Bogota
+                            </button>
+                            <ul class="list-unstyled ps-3">
+                                <li><a href="https://www.eltiempo.com/" class="text-secondary text-decoration-none">El Tiempo</a></li>
+                                <li><a href="https://www.elespectador.com/" class="text-dark text-decoration-none">El Espectador</a></li>
+                            </ul>
+                            <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" >
+                                Neiva
+                            </button>
+                            <ul class="list-unstyled ps-3">
+                                <li><a href="https://www.lanacion.com.co/" class="text-dark text-decoration-none">La Nación</a></li>
+                                <li><a href="https://diariodelhuila.com/" class="text-dark text-decoration-none">El Diario del Huila</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><strong>INTERNACIONALES</strong></h6>
+                        <ul class="list-unstyled">
+                            <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" >
+                                EE.UU
+                            </button>
+                            <ul class="list-unstyled ps-3">
+                                <li><a href="https://www.nytimes.com/es/" class="text-secondary text-decoration-none">The New York Times</a></li>
+                                <li><a href="https://www.latimes.com/" class="text-dark text-decoration-none">Los Angeles Times</a></li>
+                            </ul>
+                            <button class="btn  dropdown-toggle" data-bs-toggle="dropdown" >
+                                Argentina
+                            </button>
+                            <ul class=" list-unstyled ps-3">
+                                <li><a href="https://www.lanacion.com.co/" class="text-dark text-decoration-none">La Nación</a></li>
+                                <li><a href="https://www.clarin.com/?srsltid=AfmBOoqsNZkSoLtecGvHljH75LGIFqrhUUEGT7td1yKpxDuFJcjBPOZk" class="text-dark text-decoration-none">El Clarín</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
